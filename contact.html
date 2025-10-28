@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kontak — Rafael's</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Rafael Laurent Wowiling</a>
+      <button id="nav-toggle-3" aria-label="Buka navigasi">☰</button>
+      <nav id="main-nav-3" class="nav">
+        <a href="index.html">Beranda</a>
+        <a href="portofolio.html">Portofolio</a>
+        <a href="contact.html" aria-current="page">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Form Request Project</h1>
+    <p>Silakan isi formulir di bawah untuk melakukan permintaan pembuatan website atau kerja sama proyek.</p>
+
+    <form class="contact-form">
+      <label>Nama:</label>
+      <input type="text" name="nama" placeholder="Nama lengkap" required>
+
+      <label>Email:</label>
+      <input type="email" name="email" placeholder="email@contoh.com" required>
+
+      <label>Jenis Layanan:</label>
+      <select name="layanan" required>
+        <option value="">-- Pilih Layanan --</option>
+        <option value="web">Pembuatan Website</option>
+        <option value="konsultasi">Konsultasi Teknologi</option>
+        <option value="review">Review Portofolio</option>
+      </select>
+
+      <label>Deskripsi Proyek:</label>
+      <textarea name="pesan" rows="5" placeholder="Ceritakan proyek Anda..."></textarea>
+
+      <label>
+        <input type="checkbox" name="persetujuan" required>
+        Saya setuju data saya digunakan untuk keperluan komunikasi proyek.
+      </label>
+
+      <button type="submit" class="cta">Kirim</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2025 Rafael — <a href="https://itpln.ac.id" target="_blank">ITPLN</a></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
